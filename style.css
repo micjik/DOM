@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 60%;
+  margin: 100px auto;
+  background: #495057;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align:center;
+  font-style: italic;
+  /*font-family: 'roboto',sans-serif ;*/
+  font-size: 3.6rem;
+  color: #087f5b;
+  padding-top: 15px;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, fr);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  color: #087f5b;
+  font-size: 2.4rem;
+  font-style: italic;
+}
+img {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
